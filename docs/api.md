@@ -1760,7 +1760,7 @@ console.log(result); // prints '3'.
 - `...args` <...[Serializable]|[JSHandle]> Arguments to pass to `pageFunction`
 - returns: <[Promise]<[JSHandle]>> Resolves to the return value of `pageFunction`
 
-If the function, passed to the `executionContext.evaluateHandle`, returns a [Promise], then `executionContext.evaluteHandle` would wait for the promise to resolve and return its value.
+If the function, passed to the `executionContext.evaluateHandle`, returns a [Promise], then `executionContext.evaluateHandle` would wait for the promise to resolve and return its value.
 
 ```js
 const context = page.mainFrame().executionContext();
